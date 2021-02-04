@@ -7,13 +7,12 @@ sections:
 - type: document
   path: src/posts
   label: Content
-  match: "**/*"
 - type: heading
   label: Headline
 - type: directory
   path: src/posts
   label: Content
-  create: all
+  create: none
   match: "**/*"
 upload_dir: uploads
 public_path: "/uploads"
